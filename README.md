@@ -13,5 +13,5 @@ To create your kubernetes cluster we will need to have installed the following t
 1. After your cluster is up and running, run the following command ``` helm install <release-name> ./eks-jc-chart ```. This command will start to translate all template files into actual kubernetes resources (deployments, ingresses and clusterIP's). Once kubernetes have finished creating the resources, you will see an output indicating the name of the new helm release. 
 
 ## Mess around with your new created infraestructure
-1. Try to consume the flask application by opening your browser an navigate to http://<your-aws-network-loadBalancer-dns>/flask. 
-1. Try to reach some of the static files hosted on nginx container by navigating to http://<your-aws-network-loadBalancer-dns>/images/<image-name>
+1. Try to consume the flask application by opening your browser an navigate to http://< your-aws-network-loadBalancer-dns >/flask. 
+1. Try to reach some of the static files hosted on nginx container by navigating to http://< your-aws-network-loadBalancer-dns >/images/< image-name >
